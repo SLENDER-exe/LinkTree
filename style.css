@@ -1,6 +1,5 @@
 body {
   background-color: black;
-  /* background-image: url('assets/images/thumbnail-webp.webp'); */
   background-size: cover;
   background-repeat: no-repeat;
   color: aliceblue;
@@ -10,7 +9,6 @@ body {
 }
 
 .background-image {
-  background-image: url("assets/images/thumbnail-webp.webp");
   background-size: cover;
   background-position: center;
   position: fixed; /* Fixes the background to the viewport */
@@ -40,6 +38,7 @@ h4 {
   background-color: #1f1e1f;
   max-width: 30em; /* responsive instead of fixed width */
   margin: 0 auto; /* center container */
+  height: 0 auto;
   padding: 2em 1em;
   border-radius: 15px;
 }
