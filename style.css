@@ -36,7 +36,7 @@ h4 {
 
 .picture {
   display: block;
-  margin: 0 auto 20px;
+  margin: 0 auto 1em;
   width: 10em;
   border-radius: 100%;
 }
@@ -106,4 +106,8 @@ a {
 .btn.btn-primary:hover {
   background-color: #ded8ad;
   color: black;
+}
+
+.attribution {
+  font-size: 1em;
 }
