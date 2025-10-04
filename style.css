@@ -1,11 +1,18 @@
 body {
   background-color: black;
+  flex-direction: column;
   background-size: cover;
   background-repeat: no-repeat;
   color: aliceblue;
   text-align: center;
   margin: 0;
-  padding: 20px;
+  /* Add Flexbox properties to center content */
+  display: flex; /* Make body a flex container */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Ensure body takes full viewport height */
+  flex-direction: column;
+  gap: 20px;
 }
 
 .background-image {
