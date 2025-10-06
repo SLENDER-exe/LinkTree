@@ -67,7 +67,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 15px;
+  gap: 1em;
   margin-top: 20px;
 }
 
