@@ -51,11 +51,6 @@ h4 {
   border-radius: 15px;
 }
 
-a {
-  color: #fafbfa;
-  text-decoration: none;
-}
-
 .btn.btn-primary {
   width: 100%; /* full width inside container */
   max-width: 20em; /* keep consistent size */
@@ -77,33 +72,16 @@ a {
   display: flex;
   justify-content: center; /* center the text */
   align-items: center;
-  width: 100%;
-  max-width: 20em;
   padding: 10px 40px; /* leave space for the icon */
-  background-color: #323232;
-  border: none;
   color: #fafbfa;
   font-weight: 500;
   text-decoration: none;
-  transition: all 200ms;
 }
 
 .links a img.logo {
   position: absolute; /* fix logo to the left */
   left: 15px; /* distance from left edge */
   width: 30px;
-}
-
-.links a:hover {
-  background-color: #ded8ad;
-  color: black;
-}
-
-.links a {
-  display: inline-flex; /* icon + text in one line */
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 
 .btn.btn-primary:hover {
